@@ -1,0 +1,5 @@
+<% @posts.each do |post| %>
+<%= post.title %>
+<%= link_to 'Destroy', post, method: :delete %>
+<br />
+<% end %>
